@@ -15,7 +15,7 @@ os.environ["CUDA_DEVICE_ORDER"]= "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 flags = tf.app.flags
-flags.DEFINE_boolean("is_train",False,"True for training, False for testing")
+flags.DEFINE_integer("is_train", 0, "1 for training, 0 for testing")
 flags.DEFINE_string("checkpoint_dir","checkpoint", "directory name to save the checkpoint")
 flags.DEFINE_string("model_dir","gbrg_patch50", "directory name to save the checkpoint")
 
