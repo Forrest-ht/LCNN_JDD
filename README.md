@@ -3,12 +3,12 @@
 
 ### train code
 
-  python main_ICPR.py --is_train 1 --train_dataset './data/WED/'
+   python main_ICPR.py --is_train 1 --train_dataset './data/WED/'
 
 
 ### test code
 
-  python main_ICPR.py --is_train 0 --test_dataset './data/Kodak/'
+   python main_ICPR.py --is_train 0 --test_dataset './data/Kodak/'
 
 
 ### avarage results for Kodak and McMaster dataset (PSNR and SSIM)
