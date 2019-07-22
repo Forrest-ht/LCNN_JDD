@@ -1,4 +1,3 @@
-# LCNN_JDD
 ## Code for Lightweight Deep Residue Learning for Joint Color Image Demosaicking and Denoising (ICPR2018 Oral)
 
 
