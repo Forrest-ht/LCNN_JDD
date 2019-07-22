@@ -42,7 +42,6 @@ def main(_):
 
     with tf.Session() as sess:
         model = LCNN(sess, FLAGS)
-
         if FLAGS.is_train:
             model.train(FLAGS)
         else:
